@@ -1,0 +1,337 @@
+body { 
+	background-color: #C89F9C;
+    margin: 0;
+}
+ 
+header {
+    max-width: 3000px;
+    height: 50px;
+    background-color: #8B625F;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+}
+
+header p {
+    margin: 0;
+
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.contenitore {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.info {
+    display: flex;
+    height: 100vh;
+}
+
+.testo, .immagine1 {
+    width: 50%;
+}
+
+.testo {
+    font-size: 55px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+    position: relative;
+    left: 100px;
+}
+
+.immagine1 img {
+    height: 50% ;
+    object-fit: cover;
+    border-radius: 50px 50px 50px 50px;
+    position: relative;
+    left: 70px;
+    position: relative;
+    top: 120px;
+}
+
+section.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    max-width: 1100px;
+    margin: 38px auto;
+    gap: 100px;
+    padding: 0 16px;
+    position: relative;
+    bottom: 200px;
+}
+
+section.card h2, section.card p {
+     position: relative;
+    top: 120px;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+section.card img {
+    position: relative;
+    left: 200px;
+    position: relative;
+    top: 120px;
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+section.card h2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 16px 16px 0 16px;
+}
+
+section.card p {
+    font-size: 18px;
+    color:#ffffff;
+    padding: 0 16px 16px 16px;
+}
+
+.contenitore {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.calvino {
+    display: flex;
+    height: 100vh;
+    position: static;
+}
+
+.testo1, .immagine {
+    width: 50%;
+    margin: 50px;
+}
+
+.testo1 {
+    color: #ffffff;
+    display: flex;
+    position: relative;
+    font-size: 15px;
+}
+
+.immagine img {
+    height:50% ;
+    object-fit: cover;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.contenitore {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.jack {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    bottom: 300px;
+    position: static;
+}
+
+.testo2, .immagine2 {
+    width: 50%;
+    margin: 50px;
+}
+
+.testo2 {
+    color: #ffffff;
+    display: flex;
+    position: relative;
+    font-size: 15px;
+}
+
+.immagine2 img {
+    height: 60% ;
+    object-fit: cover;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.info2 {
+    position: relative;
+    bottom: 400px;
+    position: static;
+}
+
+.titolo2 h4 {
+    font-size: 32px;
+    color: #8B625F;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+.testo3 h5 {
+    color: #8B625F;
+    font-size: 32px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+.testo3 p {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "Libre Franklin", sans-serif;
+    margin: 30px;
+}
+
+.copertina {
+    display: flex;
+}
+
+.testo4, .immagine3 {
+    width: 50%;
+    margin: 50px;
+}
+
+.testo4 {
+    color: #ffffff;
+    display: flex;
+    position: relative;
+    left: 250px;
+    font-size: 20px;
+
+}
+
+.immagine3 img {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50px 50px 50px 50px;
+    position: relative;
+    bottom: 180px;
+}
+
+h6 {
+    font-size: 32px;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+.copertina1 {
+    display: flex;
+}
+
+.testo5, .immagine4 {
+    width: 50%;
+    margin: 50px;
+}
+
+.testo5 {
+    color: #ffffff;
+    display: flex;
+    position: relative;
+    left: 250px;
+    font-size: 20px;
+}
+
+.immagine4 img {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50px 50px 50px 50px;
+    position: relative;
+    bottom: 220px;
+}
+
+.sotto {
+    display: flex;
+}
+
+.testo6 {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+
+.testo7 {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.libri2 {
+    float: left;
+    width: 300px; 
+    object-fit: cover;
+    border-radius: 50px 50px 50px 50px;
+   }
+   
+.center {
+    width: 600px; 
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 100px;
+    padding: 0 16px;
+   }
+
+.testo8 {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fine {
+position: relative;
+top: 100px;
+   }
+
+.testofinale p {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.testofinale h1 {
+    color: #8B625F;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px;
+    font-size: 14px;
+    position: relative;
+    top: 100px;
+}
